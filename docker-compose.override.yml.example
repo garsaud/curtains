@@ -1,0 +1,7 @@
+version: "3.4"
+
+services:
+  app:
+    volumes:
+      - ./src:/usr/src/app/src
+      - ./config.json:/usr/src/app/config.json
