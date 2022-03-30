@@ -11,9 +11,9 @@
                 {
                     "name": "curtains",
                     "port": 49915,
-                    "on_cmd": "touch testfile.txt",
-                    "off_cmd": "rm testfile.txt",
-                    "state_cmd": "ls testfile.txt"
+                    "on_cmd": "python src/up.py",
+                    "off_cmd": "python src/down.py",
+                    "use_fake_state": true
                 }
             ]
         }
