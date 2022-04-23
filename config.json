@@ -11,8 +11,8 @@
                 {
                     "name": "curtains",
                     "port": 49915,
-                    "on_cmd": "python src/down.py",
-                    "off_cmd": "python src/up.py",
+                    "on_cmd": "sh -c 'nohup python src/down.py > /dev/null &'",
+                    "off_cmd": "sh -c 'nohup python src/up.py > /dev/null &'",
                     "use_fake_state": true
                 }
             ]
