@@ -11,8 +11,8 @@
                 {
                     "name": "curtains",
                     "port": 49915,
-                    "on_cmd": "python src/up.py",
-                    "off_cmd": "python src/down.py",
+                    "on_cmd": "python src/down.py",
+                    "off_cmd": "python src/up.py",
                     "use_fake_state": true
                 }
             ]
